@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тихая пауза — профилактика выгорания педагогов</title>
+<style>
+  :root { --c-soft: #f7f3e8; --c-deep: #5b8a8a; --c-danger: #c54444; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin: 0; padding: 20px; background: var(--c-soft); color: #333; }
+  .header { background: var(--c-deep); color: #fff; padding: 18px 20px;
+           border-radius: 12px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; }
+  .header h1 { margin: 0; font-size: 1.6rem; }
+  .btn { background: var(--c-deep); color: #fff; border: none; padding: 10px 16px; border-radius: 8px; cursor: pointer; font-size: 1rem; }
+  .btn:hover { background: #4a7a7a; }
+  .container { max-width: 900px; margin: 0 auto; }
+  h2 { margin-top: 24px; color: var(--c-deep); }
+  .card { background: #fff; padding: 20px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .item { border: 1px solid #e8e3d8; padding: 16px; border-radius: 10px; }
+  .item h3 { margin: 0 0 12px; font-size: 1.1rem; }
+  .item ul { margin: 0; padding-left: 20px; }
+  .item li { margin-bottom: 8px; line-height: 1.5; }
+  .footer { margin-top: 32px; padding: 20px; text-align: center; font-size: 0.9rem; color: #666; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>«Тихая пауза»</h1>
+  <div class="btn">Экстренная помощь: 8-800-XXX-XX-XX</div>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h2>Это нормально — замечать усталость</h2>
+    <p>Выгорание развивается незаметно. Здесь — только маленькие шаги (30 секунд – 1 день), которые можно вписать в рабочий график.</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>1. Признаки</h3>
+      <ul>
+        <li>Раздражение из-за мелочей</li>
+        <li>Формальное отношение к детям («просто делаю минимум»)</li>
+        <li>Проблемы со сном, головные боли</li>
+        <li>Желание «выключить телефон»</li>
+      </ul>
+      <p>Если таких пунктов 4 и более — имеет смысл добавить хотя бы одну «маленькую паузу».</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Микро-практики («прямо сейчас»)</h3>
+      <div class="item">
+        <h4>«Квадратное дыхание»</h4>
+        <p>Вдох 4 → пауза 4 → выдох 4 → пауза 4. Повторить 4 раза. Это снижает пульс за 30 секунд.</p>
+        <button class="btn">Сделать паузу</button>
+      </div>
+      <div class="item">
+        <h4>«5-4-3-2-1»</h4>
+        <p>5 вещей, которые видишь → 4, которые чувствуешь → 3, которые слышишь → 2 запаха → 1 вкус.</p>
+        <button class="btn">Сделать паузу</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>3. Рутина на неделю</h3>
+      <ul>
+        <li>5 минут после каждого урока («без почты и проверок»).</li>
+        <li>Один день без документации.</li>
+        <li>«Банка благодарностей»: 3 хороших момента дня.</li>
+      </ul>
+      <p>Не нужно делать всё сразу. Выберите один пункт.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>4. Поддержка</h3>
+    <ul>
+      <li>Неформальные встречи с коллегами (без оценки, только поддержка).</li>
+      <li>Региональный центр психологической поддержки: [адрес / телефон].</li>
+    </ul>
+    <p class="footer">Этот сервис не является медицинской помощью. При кризисном состоянии обратитесь к специалисту.</p>
+  </div>
+
+  <div class="footer">
+    <p>Для образовательных организаций: можно распечатать этот макет и использовать на стенде / в методическом кабинете.</p>
+  </div>
+</div>
+</body>
+</html>
